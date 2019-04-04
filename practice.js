@@ -8,25 +8,23 @@ var myName = "bryan";
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+var myAge = 35;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
-
+var lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+var greatestFear = undefined;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
-
-//Code here
+var devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,22 +33,25 @@ var myName = "bryan";
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting(name) {
+  return "Hello, " + name;
+}
 
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting.
 
-//Code Here
+let newGreeting = function(name) {
+  return "Hello, " + name;
+};
 
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
-
+let groceries = ["apples", "milk", "eggs", "bread"];
 //////////////////PROBLEM 9////////////////////
 
 //Create an object saved to the variable dog.
@@ -58,7 +59,7 @@ var myName = "bryan";
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+let dog = { name: "Loki", Color: "Black/Tan", age: 2, goodBoy: true };
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
